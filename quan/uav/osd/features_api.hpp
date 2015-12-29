@@ -31,6 +31,11 @@ namespace quan{ namespace uav{ namespace osd{
    quan::velocity_<float>::m_per_s get_groundspeed();
    quan::velocity_<float>::m_per_s get_airspeed();
    quan::length_<float>::m get_baro_alt();
+   uint16_t get_num_wp_loaded();
+   uint16_t get_current_wp_index();
+   quan::length_<float>::m get_current_wp_dist();
+   quan::angle_<float>::deg get_current_wp_bearing();
+
   
 }}}
 
