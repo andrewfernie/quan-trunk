@@ -28,6 +28,7 @@ namespace quan{ namespace uav{ namespace osd{
    uint16_t get_rssi();
    uint16_t get_rc_raw_chan(uint8_t channel);
    uint8_t get_base_mode();
+   uint8_t get_arm_mode();
    quan::velocity_<float>::m_per_s get_groundspeed();
    quan::velocity_<float>::m_per_s get_airspeed();
    quan::length_<float>::m get_baro_alt();
